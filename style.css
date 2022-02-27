@@ -1,0 +1,73 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+</style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(218, 213, 238);
+  min-height: 100vh;
+  border: 10px solid rgb(21, 11, 75);
+}
+.main {
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-family: 'Roboto Serif', sans-serif;
+}
+.top h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(11, 10, 66);
+ 
+
+}
+.top h3 {
+  font-size: 25px;
+  margin-right: 100px;
+  
+}
+.img img {
+  width: 250px;
+  height: 250px;
+  box-shadow: 20px 10px;
+  margin-left: 100px;
+}
+.about {
+  margin-top: 50px;
+}
+.about p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  font-family: 'Roboto Serif', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+.link {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto Serif', sans-serif;
+  letter-spacing: 1px;
+}
+.link a{
+    text-decoration: none;
+}
+.link a:hover{
+    color:red;
+    text-decoration: underline;
+}
+.about h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto Serif', sans-serif;
+    letter-spacing: 1px;
+}
